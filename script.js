@@ -52,5 +52,11 @@ function setBackground(text, body) {
     body.style.backgroundImage = 'url(https://img.wallpapic.com/i2463-231-815/medium/drizzle-nature-rain-drop-wallpaper.jpg)';
   } else if (text.textContent === 'Thunderstorm') {
     body.style.backgroundImage = 'url(https://images.hindustantimes.com/img/2021/06/16/1600x900/9466e14c-ce4d-11eb-bff4-4a0252eebc23_1623812647983.jpg)';
+  } else if (text.textContent === 'Clouds') {
+    body.style.backgroundImage = 'url(https://lh3.googleusercontent.com/proxy/f3rM35hhyBCqQJTn4CNrGtmypbY-tHbrEHBZ8lyUHNCHmXkFH7Hdko7X81bMWA_PwpONHK16TymXC54CYzLMQ0Q)';
+  } else if (text.textContent === 'Snow') {
+    body.style.backgroundImage = 'url(https://wallpaperaccess.com/full/3524946.jpg)';
+  } else {
+    body.style.backgroundImage = 'url(https://static8.depositphotos.com/1323913/913/v/600/depositphotos_9137386-stock-illustration-vector-weather-forecast-icons-part.jpg)';
   }
 }
