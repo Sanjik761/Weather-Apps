@@ -12,6 +12,18 @@ submit.addEventListener('click', (e) => {
     .then(function (response) {
       return response.json();
     })
-
+    .then(function (response) {
+      console.log(response);
+      const temperature = document.createElement("span")
+      const icon = document.createElement("span")
+      icon.textContent = "°C"
+      temperature.textContent = (response.main.temp - 273.15).toFixed(1)
+      const status = document.createElement("p")
+      status.textContent = response.weather[0].main
+      const result = document.createElement("button")
+      result.textContent = "button"
+      
+      
+    })
 
 })
