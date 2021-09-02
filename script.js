@@ -46,5 +46,9 @@ submit.addEventListener('click', (e) => {
 function setBackground(text, body) {
   if (text.textContent === 'Clear') {
     body.style.backgroundImage = 'url(https://crookedhouse.typepad.com/.a/6a00e54ecc66978833015436bd8897970c-800wi)';
+  } else if (text.textContent === 'Rain') {
+    body.style.backgroundImage = 'url(https://cdn.oxu.az/uploads/W1siZiIsIjIwMTcvMDUvMTQvMTQvMzYvMjUvNjAvaGF2YSB4ZWJlcmRhcmxpcS5qcGciXV0?sha=fa22a8da0ced0d7d)';
+  } else if (text.textContent === 'Drizzle') {
+    body.style.backgroundImage = 'url(https://img.wallpapic.com/i2463-231-815/medium/drizzle-nature-rain-drop-wallpaper.jpg)';
   }
 }
