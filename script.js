@@ -27,7 +27,16 @@ submit.addEventListener('click', (e) => {
       container.appendChild(status)
       container.appendChild(result)
       setBackground(status, display)
-      
+      result.addEventListener("click", () => {
+        if (icon.textContent === "°C") {
+          temperature.textContent = ((temperature.textContent * 9 / 5) + 32).toFixed(1)
+          icon.textContent = "°F"
+        }
+        else if (icon.textContent === "°F") {
+          temperature.textContent = ((temperature.textContent - 32) * 5 / 9).toFixed(1)
+          icon.textContent = "°C"
+        }
+      })
     })
 
 })
