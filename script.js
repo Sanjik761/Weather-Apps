@@ -1,4 +1,4 @@
-import { nodeCreator, chainAppend } from './nodeCreator';
+import {nodeCreator, chainAppend} from './nodeCreator.js';
 
 const apiKey = 'fb39d41526d21022f068615f1b9f8a6d';
 const search = document.getElementById('search');
