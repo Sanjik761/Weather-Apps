@@ -13,3 +13,6 @@ const chainAppend = (nodes = []) => {
     nodes[i].appendChild(nodes[i + 1]);
   }
 };
+
+window.nodeCreator = nodeCreator();
+window.chainAppend = chainAppend();
