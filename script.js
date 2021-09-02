@@ -50,5 +50,7 @@ function setBackground(text, body) {
     body.style.backgroundImage = 'url(https://cdn.oxu.az/uploads/W1siZiIsIjIwMTcvMDUvMTQvMTQvMzYvMjUvNjAvaGF2YSB4ZWJlcmRhcmxpcS5qcGciXV0?sha=fa22a8da0ced0d7d)';
   } else if (text.textContent === 'Drizzle') {
     body.style.backgroundImage = 'url(https://img.wallpapic.com/i2463-231-815/medium/drizzle-nature-rain-drop-wallpaper.jpg)';
+  } else if (text.textContent === 'Thunderstorm') {
+    body.style.backgroundImage = 'url(https://images.hindustantimes.com/img/2021/06/16/1600x900/9466e14c-ce4d-11eb-bff4-4a0252eebc23_1623812647983.jpg)';
   }
 }
