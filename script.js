@@ -22,7 +22,11 @@ submit.addEventListener('click', (e) => {
       status.textContent = response.weather[0].main
       const result = document.createElement("button")
       result.textContent = "button"
-      
+      container.appendChild(temperature)
+      container.appendChild(icon)
+      container.appendChild(status)
+      container.appendChild(result)
+      setBackground(status, display)
       
     })
 
