@@ -16,3 +16,5 @@ const chainAppend = (nodes = []) => {
 
 window.nodeCreator = nodeCreator();
 window.chainAppend = chainAppend();
+
+export { nodeCreator, chainAppend };
