@@ -38,5 +38,8 @@ submit.addEventListener('click', (e) => {
         }
       })
     })
+    .catch(function (error) {
+      console.log("city not found");
+    })
 
 })
