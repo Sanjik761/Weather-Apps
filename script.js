@@ -41,5 +41,10 @@ submit.addEventListener('click', (e) => {
     .catch(function (error) {
       console.log("city not found");
     })
-
 })
+
+function setBackground(text, body) {
+  if (text.textContent === 'Clear') {
+    body.style.backgroundImage = 'url(https://crookedhouse.typepad.com/.a/6a00e54ecc66978833015436bd8897970c-800wi)';
+  }
+}
